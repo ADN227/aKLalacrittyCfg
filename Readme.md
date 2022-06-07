@@ -1,5 +1,7 @@
 # Dotfiles
 
+[![alacritty.jpg](https://i.postimg.cc/qB2YtGBK/alacritty.jpg)](https://postimg.cc/vDHXkfV8)
+
 Configuracion de terminal `alacritty`.
 
 # Instalacion
