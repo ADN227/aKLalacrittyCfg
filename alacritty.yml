@@ -21,8 +21,8 @@ font:
   
 colors:
   primary:
-    background: '#000000'
-    foreground: '#d6dbe5'
+    background: '#101017'
+    foreground: '#DADEDD'
     bright_foreground: '#111111'
 
   cursor:
@@ -35,24 +35,28 @@ colors:
     focused_match:
       foreground: '#ffffff'
 
+  selection:
+    text: CellForeground
+    background: '#000000'
+
   normal:
-    black:   '#000000'
-    red:     '#ff1640'
-    green:   '#51ff3d'
-    yellow:  '#ffdb1c'
-    blue:    '#4696ff'
-    magenta: '#ac40f7'
-    cyan:    '#0bb8a3'
-    white:   '#0094ff'
+    black:   '#121220'
+    red:     '#D8585F'
+    green:   '#1C7B88'
+    yellow:  '#5ADEE8'
+    blue:    '#FFC600'
+    magenta: '#E66100'
+    cyan:    '#852C2D'
+    white:   '#969A9A'
   bright:
-    black:   '#545652'
-    red:     '#ff0000'
-    green:   '#10ff00'
-    yellow:  '#ffa100'
-    blue:    '#0094ff'
-    magenta: '#57e389'
-    cyan:    '#00a995'
-    white:   '#db00ff'
+    black:   '#DADEDD'
+    red:     '#E4BE3E'
+    green:   '#EF2929'
+    yellow:  '#D8585F'
+    blue:    '#B93838'
+    magenta: '#D8585F'
+    cyan:    '#34E2E2'
+    white:   '#DADEDD'
 
 bell:
   animation: Linear
@@ -79,7 +83,6 @@ mouse_bindings:
 key_bindings:
   - { key: Paste,                             action: Paste          }
   - { key: Copy,                              action: Copy           }
-  - { key: C,              mods: Control,     action: Copy }
   - { key: V,              mods: Control,     action: Paste }
   - { key: F,              mods: Control,     action: SearchForward    }
   - { key: Insert,         mods: Shift,       action: PasteSelection   }
