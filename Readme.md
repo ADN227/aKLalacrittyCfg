@@ -1,15 +1,6 @@
-# Dotfiles
+# Mi configuración de alacritty
 
 [![alacritty.jpg](https://i.postimg.cc/qB2YtGBK/alacritty.jpg)](https://postimg.cc/vDHXkfV8)
-
-Configuracion de terminal `alacritty`.
-
-# Instalacion
-
-    pacman -S alacritty
-    yay -S nerd-fonts-hack
-
-# Configuracion
 
 ## Nombre de las ventanas
 Alacritty
