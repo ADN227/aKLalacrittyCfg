@@ -1,17 +1,17 @@
 # Mi configuración de alacritty
 
-[![alacritty.jpg](https://i.postimg.cc/qB2YtGBK/alacritty.jpg)](https://postimg.cc/vDHXkfV8)
+![2023-07-01-07-29.png](https://i.postimg.cc/kg1cNr1q/2023-07-01-07-29.png)
 
-## Nombre de las ventanas
+### Nombre de las ventanas
 Alacritty
 
-## Dimensiones
+### Dimensiones
 120 columnas x 28 lineas
 
-## Fuente
-Nerd Font Mono 9
+### Fuente
+[Hack Nerd Font](https://www.nerdfonts.com/font-downloads) 9
 
-## Cursor
+### Caracteristicas del Cursor
 
 Estilo: Doble T 
 
@@ -19,42 +19,41 @@ Parpadeo: Cada 750ms si tiene el foco
 
 Oculto mientras se escribe
 
-## Colores
+### Colores
 
-|Funcion    | Color   |         |
+|Funcion    | Dark    | Light   |
 |-----------|---------|---------|
-|Fondo      | #000000 |         |
-|Letra      | #d6dbe5 |         |
-|Cursor     | #ecba0f |         |
-|Busqueda   | #000000 | #ffffff |
-|Oscuro     | #000000 | #545652 |
-|Rojo       | #ff1640 | #ff0000 |
-|Verde      | #51ff3d | #10ff00 |
-|Amarillo   | #ffdb1c | #ff1a00 |
-|Azul       | #4696ff | #0094ff |
-|Magenta    | #ac40f7 | #57e389 |
-|Cian       | #0bb8a3 | #00a995 |
-|Gris       | #0094ff | #db00ff |
+|Fondo      | #000000 | #ffffff |
+|Letra      | #dadedd | #000000 |
+|Cursor     | #ecba0f | #a1a1a1 |
+|Busqueda   | #000000 | #d6d6d6 |
+|Oscuro     | #282a30 | #d6d6d6 |
+|Rojo       | #ff2b2b | #ff0041 |
+|Verde      | #a4cf6e | #b300ff |
+|Amarillo   | #ecba0f | #00b5ff |
+|Azul       | #a9a1f1 | #b300ff |
+|Magenta    | #fd79a1 | #0047bf |
+|Cian       | #32e2e2 | #0048b1 |
+|Gris       | #34e2e2 | #d6d6d6 |
 
-## Acciones
+### Acciones
 
-### Mouse
+#### Mouse
 
 | Tecla | Accion |
 |-------|--------|
-| 3 + Control | Cuadro de seleccion |
-| 3 + Alt     | Copiar seleccion    |
-| 3 + Shift   | Pegar               |
+| ```Control + Left``` | Cuadro de selección |
+| ```Right``` | Expandir selección |
+| ```Middle``` | Pegar |
 
-### Teclado 
+#### Teclado 
 
-| Shift | Control | Tecla  | Accion |
-|-------|---------|--------|-----------------------------|
-| Si    |         | Insert | Pegar                       |
-|       | Si      | =      | Incrementar tamaño de letra |
-|       | Si      | +      | Incrementar tamaño de letra |
-|       | Si      | -      | Disminuir tamaño de letra   |
-|       | Si      | 0      | Tamaño de letra normal      |
-|       | Si      | F      | Buscar                      |
-|       | Si      | C      | Copial                      |
-|       | Si      | V      | Pegar                       |
+|  | Tecla  | Accion |
+|--|--------|--------|
+| ```Control``` | ```=``` ó ```+``` | Incrementar tamaño de letra |
+| ```Control``` | ```-``` | Disminuir tamaño de letra   |
+| ```Control``` | ```0``` | Tamaño de letra normal      |
+| ```Control``` | ```F``` | Buscar                      |
+| ```Control + Shift``` | ```C``` | Copial                      |
+| ```Control``` | ```V``` | Pegar                       |
+|  | ```Insert``` | Pegar selección |
