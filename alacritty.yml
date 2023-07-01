@@ -7,6 +7,7 @@ window:
     lines: 28
   title: Alacritty
   dynamic_title: false
+  opacity: 0.6
 
 scrolling:
   history: 10000
@@ -18,10 +19,10 @@ font:
     family: Hack Nerd Font mono
   size: 9
 
-  
+
 colors:
   primary:
-    background: '#101017'
+    background: '#000000'
     foreground: '#DADEDD'
     bright_foreground: '#111111'
 
@@ -40,23 +41,23 @@ colors:
     background: '#000000'
 
   normal:
-    black:   '#121220'
-    red:     '#D8585F'
-    green:   '#1C7B88'
-    yellow:  '#5ADEE8'
-    blue:    '#FFC600'
-    magenta: '#E66100'
-    cyan:    '#852C2D'
-    white:   '#969A9A'
+    black:   '#282a30'
+    red:     '#ff2b2b'
+    green:   '#a4cf6e'
+    yellow:  '#ecba0f'
+    blue:    '#a9a1f1'
+    magenta: '#fd79a1'
+    cyan:    '#32e2e2'
+    white:   '#34e2e2'
   bright:
-    black:   '#DADEDD'
-    red:     '#E4BE3E'
-    green:   '#EF2929'
-    yellow:  '#D8585F'
-    blue:    '#B93838'
-    magenta: '#D8585F'
+    black:   '#282a30'
+    red:     '#ff2b2b'
+    green:   '#a4cf6e'
+    yellow:  '#ecba0f'
+    blue:    '#a9a1f1'
+    magenta: '#fd79a1'
     cyan:    '#34E2E2'
-    white:   '#DADEDD'
+    white:   '#34e2e2'
 
 bell:
   animation: Linear
@@ -78,7 +79,7 @@ mouse_bindings:
   - { mouse: Right,  mods: Control, action: ExpandSelection }
   - { mouse: Right,  mods: Alt,     action: CopySelection }
   - { mouse: Middle, mods: None,    action: Paste }
-  
+
 
 key_bindings:
   - { key: Paste,                             action: Paste          }
