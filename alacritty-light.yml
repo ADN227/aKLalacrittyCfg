@@ -16,7 +16,7 @@ scrolling:
 font:
   normal:
     Default:
-    family: Hack Nerd Font mono
+    family: Hack
   size: 9
 
 colors:
